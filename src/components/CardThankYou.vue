@@ -31,8 +31,13 @@ const lastRating = computed(() => ratingsStore.ratings.slice(-1)[0])
     font-size: var(--font-size-sm);
     vertical-align: bottom;
 }
+
 .c-Card {
     text-align: center;
     align-items: center;
+}
+
+h2 {
+    font-weight: 500;
 }
 </style>

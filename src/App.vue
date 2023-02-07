@@ -19,8 +19,10 @@ const submitRating = () => {
 
 <template>
   <main>
-    <CardRating v-if="!answered" :selected-rating="selectedRating" @submit-rating="submitRating" class="c-Card" />
-    <CardThankYou v-else :selected-rating="selectedRating" class="c-Card" />
+    <Transition mode="out-in">
+      <CardRating v-if="!answered" :selected-rating="selectedRating" @submit-rating="submitRating" class="c-Card" />
+      <CardThankYou v-else :selected-rating="selectedRating" class="c-Card" />
+    </Transition>
   </main>
 </template>
 
@@ -39,5 +41,15 @@ const submitRating = () => {
   font-size: var(--font-size-sm);
   color: var(--vt-c-gray);
   margin: 0.5rem 0;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
 }
 </style>

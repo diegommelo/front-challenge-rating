@@ -1,0 +1,43 @@
+@import './base.css';
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button.primary {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  border-radius: 20px;
+  padding: 0.8rem;
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+button.primary:hover {
+  background-color: var(--vt-c-white);
+  color: var(--color-primary);
+  transition: .35s;
+}
+
+.text-center {
+  text-align: center;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}

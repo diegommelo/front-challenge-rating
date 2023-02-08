@@ -11,5 +11,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  baseurl : '/front-challenge-rating'
+  base: process.env.NODE_ENV === 'production'
+    ? '/font-challenge-rating' // prod
+    : '/', // dev
 })

@@ -1,10 +1,10 @@
-# rating
+# Interactive Rating Component from Frontend Mentor
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a implementation of the Interactive Rating Component Challenge from Frontend Mentor using Vue.js (version 3 with Composition API), Vite and Vitest.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) 
 
 ## Customize configuration
 
@@ -39,3 +39,5 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+### Author
+Diego Melo

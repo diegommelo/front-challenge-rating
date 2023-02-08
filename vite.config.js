@@ -11,5 +11,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: './front-challenge-rating'
+  baseurl : '/front-challenge-rating'
 })

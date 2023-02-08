@@ -11,7 +11,10 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/front-challenge-rating/'
-    : '/'
 })
+
+module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/my-project/'
+    : '/'
+}

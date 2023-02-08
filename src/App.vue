@@ -37,7 +37,7 @@ const submitRating = () => {
   border-radius: 25px;
 }
 
-.c-Card /deep/ p {
+.c-Card :deep(p) {
   font-size: var(--font-size-sm);
   color: var(--vt-c-gray);
   margin: 0.5rem 0;

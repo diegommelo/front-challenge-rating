@@ -10,7 +10,7 @@ const lastRating = computed(() => ratingsStore.ratings.slice(-1)[0])
 
 <template>
     <section>
-        <div class="mt-1 mb-1">
+        <div class="c-IconThankYou mt-1 mb-1">
             <IconThankYou />
         </div>
         <div class="mb-1">

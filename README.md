@@ -1,4 +1,4 @@
-# Interactive Rating Component from Frontend Mentor
+# Interactive Rating Component
 
 This is a implementation of the Interactive Rating Component Challenge from Frontend Mentor using Vue.js (version 3 with Composition API), Vite and Vitest.
 

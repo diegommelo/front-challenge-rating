@@ -12,6 +12,6 @@ export default defineConfig({
     }
   },
   base: process.env.NODE_ENV === 'production'
-    ? '/front-challenge-tip/' // prod
+    ? '/front-challenge-rating/' // prod
     : '/', // dev
 })
